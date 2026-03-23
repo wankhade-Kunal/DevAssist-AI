@@ -26,7 +26,7 @@
 
 * React.js
 * Axios
-* Tailwind CSS *(if used)*
+* Tailwind CSS
 
 ### 🔹 Backend
 
@@ -35,7 +35,7 @@
 
 ### 🔹 Database
 
-* MongoDB *(if used)*
+* MongoDB 
 
 ### 🔹 AI Integration
 
@@ -116,14 +116,6 @@ npm start
 ## 📸 Screenshots
 
 🚧 Add UI screenshots here (very important for recruiters)
-
----
-
-## ⚠️ Important Notes
-
-* ❌ Do NOT upload `.env` file
-* ✅ `node_modules` is ignored
-* 🔑 Add your OpenAI API key before running
 
 ---
 
