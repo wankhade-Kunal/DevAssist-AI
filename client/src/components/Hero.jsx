@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function Hero() {
+  const navigate = useNavigate();
   return (
     <section className="flex flex-col items-center justify-center text-center py-32 px-6">
       
@@ -13,11 +16,11 @@ function Hero() {
 
       <div className="space-x-4">
         <button className="bg-indigo-500 px-6 py-3 rounded-lg hover:bg-indigo-600">
-          Start Free
+          Start Chating
         </button>
 
         <button className="border border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-800">
-          View Demo
+          Learn More
         </button>
       </div>
 

@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Login() {
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
@@ -23,8 +26,10 @@ function Login() {
 
     if (data.token) {
       localStorage.setItem("token", data.token);
+      navigate("/"); 
+    } else {
+      setMessage(data.message);
     }
-    setMessage(data.message);
   };
 
   return (
