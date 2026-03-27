@@ -187,6 +187,7 @@ This project is open-source and available under the MIT License.
 
 ## 💼 Author
 
+* Kunal Wankhade
 * GitHub: https://github.com/wankhade-Kunal
 * LinkedIn: https://www.linkedin.com/in/kwankhade/
 
