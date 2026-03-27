@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode strategy for Tailwind v4 */
+/* This tells Tailwind to apply dark: styles when <html> has .dark class */
+@variant dark (&:where(.dark *), .dark &);
+
+:root {
+  --bg-start: #f5e6d3;
+  --bg-end: #fdf6ec;
+  --text-color: #3b0764;
+}
+
+html.dark {
+  --bg-start: #020617;
+  --bg-end: #0f172a;
+  --text-color: #ffffff;
+}
+
+html, body, #root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
