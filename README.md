@@ -5,41 +5,67 @@
 ![GitHub forks](https://img.shields.io/github/forks/wankhade-Kunal/DevAssist-AI?style=social)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-> 💡 An AI-powered developer assistant that helps with coding, debugging, and technical queries — built using modern full-stack technologies.
+
+# 🚀 DevAssist AI
+
+DevAssist AI is a modern AI-powered developer assistant that helps you **understand, debug, optimize, and convert code** using an interactive chat interface.
+
+Built as a full-stack project with a clean SaaS-style UI, it provides multiple tools for developers in one place.
 
 ---
 
 ## ✨ Features
 
-* 🤖 AI-powered chat assistant
-* 💬 Real-time conversation
-* 🧠 Context-aware responses
-* 🗂️ Chat history (memory support) *(if implemented)*
-* 🌐 Full-stack architecture
-* 🔐 Secure API handling using `.env`
+* 💬 **AI Chat System**
+
+  * Mode-based interaction:
+
+    * Code Explanation
+    * Bug Fixing
+    * Code Optimization
+    * Code Conversion
+    * README Generator
+
+* 🧠 **Smart Dashboard**
+
+  * Quick access to tools
+  * Recent activity (history)
+  * Usage stats
+
+* 🔐 **Authentication System**
+
+  * Login / Signup
+  * Persistent session using localStorage
+
+* 🌗 **Dark / Light Mode**
+
+  * Toggle theme with smooth transitions
+
+* ⚡ **Modern UI**
+
+  * Clean SaaS-style design
+  * Responsive layout
+  * Tailwind CSS v4 styling
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🔹 Frontend
+### Frontend
 
-* React.js
-* Axios
-* Tailwind CSS
+* React (Vite)
+* Tailwind CSS v4
+* React Router
 
-### 🔹 Backend
+### Backend
 
 * Node.js
-* Express.js
+* Express
 
-### 🔹 Database
+### State Management
 
-* MongoDB 
-
-### 🔹 AI Integration
-
-* OpenAI API
+* React Hooks (useState, useEffect)
+* Context API
 
 ---
 
@@ -48,114 +74,122 @@
 ```
 DevAssist-AI/
 │
-├── client/        # Frontend (React)
-├── server/        # Backend (Node + Express)
-├── .gitignore
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Features.jsx
+│   │   │   ├── Footer.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Chat.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   ├── LearnMore.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── index.css
+│
+├── server/
+│   ├── server.js
+│
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/wankhade-Kunal/DevAssist-AI.git
-cd DevAssist-AI
+git clone https://github.com/wankhade-Kunal/devassist-ai.git
+cd devassist-ai
 ```
 
 ---
 
-### 2️⃣ Backend Setup
+### 2. Install dependencies
 
-```bash
-cd server
-npm install
-```
-
-Create `.env` file:
-
-```
-OPENAI_API_KEY=your_api_key_here
-PORT=5000
-```
-
-Run backend:
-
-```bash
-npm run dev
-```
-
----
-
-### 3️⃣ Frontend Setup
+#### Frontend
 
 ```bash
 cd client
 npm install
-npm start
+npm run dev
+```
+
+#### Backend
+
+```bash
+cd server
+npm install
+node server.js
 ```
 
 ---
 
-## 🚀 Usage
+## 🔑 Environment Variables
 
-* Open 👉 `http://localhost:3000`
-* Start chatting with DevAssist AI
-* Ask coding questions, debugging help, or tech queries
+Create a `.env` file inside the server folder:
 
----
-
-## 🌍 Live Demo
-
-🚧 Coming Soon *(Add after deployment)*
+```env
+OPENAI_API_KEY=your_api_key_here
+```
 
 ---
 
-## 📸 Screenshots
+## 💡 Usage
 
-🚧 Add UI screenshots here (very important for recruiters)
+* Open the app in your browser
+* Login or Signup
+* Choose a feature from Dashboard or Home
+* Start chatting with AI based on selected mode
 
 ---
 
-## 🔮 Future Improvements
+## 📸 Screenshots (Optional)
 
-* 🔐 Authentication (JWT)
-* 💾 Chat history database
-* 🧑‍💻 Code editor integration
-* 📁 File upload support
-* 🌍 Multi-language support
+*Add screenshots of your UI here (Dashboard, Chat, Landing Page)*
+
+---
+
+## 🎯 Future Improvements
+
+* Save chat history per user (database)
+* Add user profile
+* Improve AI response formatting
+* Deploy to production (Vercel + Render)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repo
-2. Create your branch
-3. Commit changes
-4. Push and open a PR
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 ---
 
-## 📄 License
+## 📜 License
 
-MIT License © 2026
+This project is open-source and available under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## 🙌 Acknowledgements
 
-**Kunal Wankhade**
+* OpenAI API
+* Tailwind CSS
+* React Ecosystem
+
+---
+
+## 💼 Author
 
 * GitHub: https://github.com/wankhade-Kunal
+* LinkedIn: https://www.linkedin.com/in/kwankhade/
 
 ---
 
-## ⭐ Support
-
-If you like this project, please ⭐ star the repo — it helps a lot!
-
----
+⭐ If you like this project, give it a star!
