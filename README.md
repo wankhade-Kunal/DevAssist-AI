@@ -153,6 +153,7 @@ OPENAI_API_KEY=your_api_key_here
 ## 📸 Screenshots (Optional)
 
 * Home Page ![image alt](https://github.com/wankhade-Kunal/DevAssist-AI/blob/034ced6ba88c4068c71ca60368fc9ce4d42b5485/Images/Screenshot%202026-03-27%20152714.png)
+* Home Page + Day and Night Mode ![image alt](https://github.com/wankhade-Kunal/DevAssist-AI/blob/65190a52eb9b05d59070ac5c714369def4dad7ab/Images/Screenshot%202026-03-27%20152740.png)
 
 ---
 
