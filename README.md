@@ -152,7 +152,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ## 📸 Screenshots (Optional)
 
-*Add screenshots of your UI here (Dashboard, Chat, Landing Page)*
+* Home Page ![image alt](https://github.com/wankhade-Kunal/DevAssist-AI/blob/034ced6ba88c4068c71ca60368fc9ce4d42b5485/Images/Screenshot%202026-03-27%20152714.png)
 
 ---
 
